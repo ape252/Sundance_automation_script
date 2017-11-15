@@ -1,20 +1,48 @@
-When /^I select las vegas tour$/ do
- #    visit Booking
-	# sleep 5
-	#  on Lasvegas do |page|
+
+Given /^I am on sundance website$/ do
+ # visit Booking
+
+end
+
+When /^I select grand canyon tour$/ do
+	# on Booking do |page|
 	# 	page.select
 	# end
-end
-
-When /^I click book now button$/ do
-	# on Lasvegas do |page|
-	# 	page.book
-	# end
-end
   
+end
 
-When /^I enter all data$/ do
-#   on Lasvegas do |page|
+
+When /^I click on  flight tour book now button$/ do
+	# on Booking do |page|
+	# 	page.flight
+	# end
+  
+end
+
+When /^I click on flight book now button$/ do
+	# on Booking do |page|
+	# 	page.flight_landing
+	# end
+  
+end
+
+
+When /^I click on book now button for skywalk tour$/ do
+ #  on Booking do |page|
+	# 	page.flight_skywalk
+	# end 
+end
+
+When /^I click on book now button for flight and landing and activities$/ do
+	# on Booking do |page|
+	# 	page.flight_voyager
+	# end 
+end
+
+
+
+When /^I enter all details$/ do
+#   on Booking do |page|
 # page.firstname=Common.get_details("fname")
 # page.lastname=Common.get_details("sname")
 # page.phone=Common.get_details("phone_num")
@@ -26,7 +54,6 @@ When /^I enter all data$/ do
 # # page.passenger2_name=Common.get_details("p2name")
 # # page.passenger2_lname=Common.get_details("p2lname")
 # # page.passenger2_weight=Common.get_details("p2weight")
-# sleep 1
 # page.date
 # sleep 2
 # page.address=Common.get_details("add")
@@ -42,12 +69,12 @@ When /^I enter all data$/ do
 # end
 end
 
-Then /^I should be able to book a tour$/ do
-	# on Lasvegas do |page|
+
+Then /^I should be able to checkout$/ do
+	# on Booking do |page|
 	# 	page.drop_down
 	# 	page.check_box
 	# 	page.submit
 	# end
 end
   
-

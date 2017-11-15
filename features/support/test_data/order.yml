@@ -1,7 +1,10 @@
-features/book.feature: 550
-features/vegas.feature: 800
-features/hover.feature: 700
-features/wedding.feature: 600
-features/redrock.feature: 500
-features/heli.feature: 900
-features/group.feature: 400
+# features/book.feature: 800
+# features/vegas.feature: 750
+# features/hover.feature: 700
+# features/wedding.feature: 600
+# features/redrock.feature: 500
+# features/heli.feature: 550
+# features/group.feature: 400
+# features/heli_horse.feature: 760
+# features/heliboat.feature: 720
+# features/summer.feature: 730
